@@ -1,0 +1,87 @@
+/*全局属性*/
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: transparent;
+}
+
+td, th {
+    padding: 0;
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.6;
+    color: rgba(0, 0, 0, 0.5);
+    background: whitesmoke;
+  }
+
+@media screen and (max-width: 992px) {
+    body {
+      font-size: 16px;
+    }
+  }
+
+a {
+    color: #333333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1169af;
+}
+
+label {
+    cursor: pointer;
+}
+
+img {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: middle;
+    border: 0;
+    max-width: 100%;
+}
+
+a img:active, a img:hover {
+    opacity: .9;
+    filter: alpha(opacity=90)
+}
+
+input, textarea {
+    border: 1px solid #b8c4ce;
+    border-radius: 2px;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 4px rgba(41, 128, 185, 0.4);
+    -webkit-transition: border-color ease-in-out .2s, -webkit-box-shadow ease-in-out .2s;
+    -o-transition: border-color ease-in-out .2s, box-shadow ease-in-out .2s;
+    transition: border-color ease-in-out .2s, box-shadow ease-in-out .2s;
+}
+
+p {
+    margin-bottom: 1.5em;
+  }
+  
+h1, h2, h3, h4, h5, h6 {
+    color: #000;
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 400;
+    margin: 0 0 30px 0;
+  }
